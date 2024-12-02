@@ -1,0 +1,144 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image:url(images/fabric-bg.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.center {
+    width: 50%; /* ---------- This is for responsiveness ------------ */
+	min-width: 400;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(203, 172, 185, 0.75);/* ---------- Opacity of 75% ------------ */
+	text-align: center;
+	border: 10px solid rgb(161, 87, 111);
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	border:none;
+	text-align: center;
+}
+
+h1 {
+	font-family: "operetta-12", serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: maroon;
+}
+
+h2 {
+	font-family: link rel="stylesheet" href="https://use.typekit.net/ihj5qii.css";
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: maroon;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: maroon;
+}
+    
+nav{
+	font-family: link rel="stylesheet" href="https://use.typekit.net/ihj5qii.css";
+	font-size: 1.2em;
+	width: 400px;
+	margin: 0 auto;
+	border: darkgoldenrod;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}
+
+nav li{
+	display:inline
+}
+
+nav a{ 
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color:rgb(217, 17, 64);
+	text-decoration:wavy;
+	font-weight: bold;
+}
+
+a:hover{
+	color:palevioletred;
+	background:palegoldenrod;
+	transition: all .2s ease-in-out; /* ---------- Lines 141 & 142 for grow hover ------------ */
+	transform:scale(1.1);
+}
+
